@@ -1,0 +1,17 @@
+{
+  "description": "Project-local prompt optimization hook",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ${AMPLIFIER_HOOKS_DIR}/prompt_optimizer.py",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}
