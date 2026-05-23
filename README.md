@@ -1,1 +1,1 @@
-# CAOS-hook-prompt-optomizer
+# CAOS hook prompt optomizer
